@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+</head>
+<body>
+    <h1>Space Invaders</h1>
+    <h2>General Information</h2>
+    <p>Space Invaders is a 1978 arcade shooting game developed by the Japanese company <b>Taito</b>. It became a cultural phenomenon and one of the earliest games that created massive global hype. The player controls a laser cannon, moving horizontally across the bottom of the screen while shooting descending aliens before they reach the ground.</p>
+    <p>According to developers, the original idea was inspired by a mix of <i>Star Wars, War of the Worlds</i>, and traditional shooting ranges. Interestingly, the game was supposed to feature tanks and soldiers, but technical limitations forced Taito to use simple alien shapes instead.</p>
+    <h2>Gameplay Mechanics</h2>
+    <p>The alien formation moves left-to-right, gradually accelerating as more invaders are eliminated. Once they hit the screen boundary, they descend one level and change direction. The tension increases as the sound effects speed up, creating a sense of panic deliberately engineered by the developers.</p>
+    <ul>
+        <li><b>Laser Cannon:</b> The player's ship that fires single shots.</li>
+        <li><b>Barriers:</b> Four destructible shelters that provide temporary protection.</li>
+        <li><b>Mystery UFO:</b> A special alien that appears occasionally, offering bonus points.</li>
+    </ul>
+        <h2>Alien Types</h2>
+        <p>Space Invaders features a structured alien army arranged in rows. Although simple, each type behaves differently and grants different points:</p>
+        <ol>
+            <li><b>Squid Invaders:</b> Top-row invaders worth the highest points.</li>
+            <li><b>Crab Invaders:</b> Middle-row aliens known for their distinctive movement.</li>
+            <li><b>Octopus Invaders:</b> Bottom-row aliens, most common and lowest scoring.</li>     
+        </ol>
+    <h3>The Hidden “Kill Screen” Bug</h3>
+    <p>On level 256, a strange phenomenon occurs—similar to the Pac-Man glitch. A memory counter used by the game overflows, causing corrupted graphics to appear on the screen. Players refer to this as the <b>“Vertical Memory Collapse”</b>.</p>
+    <img src="https://placehold.co/350x200/EEE/31343C" alt="File not found" width="350" height="200">
+    <p>The cause is simple: the game uses an 8-bit integer to store the current level number. When the counter reaches 256, it overflows back to zero. The graphics routine, thinking it is level 0, draws alien sprites in incorrect memory regions, causing screen distortion.</p>
+    <p>“We didn't expect players to reach that far. The glitch became part of gaming history.” — <i>Nishikado Tomohiro, Creator of Space Invaders</i></p>
+    <h2>Legacy and Influence</h2>
+    <p>Space Invaders is considered one of the most influential video games ever created. It increased arcade machine sales dramatically and helped establish gaming as a mainstream entertainment medium. Its mechanic of enemies speeding up as they decrease in number became a foundational concept in game design.</p>
+    <p>Over the years, Space Invaders has been remade, enhanced, and re-released in numerous compilations. Some of the most notable collections are listed below:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Collection Title</th>
+                <th>Release Date</th>
+                <th>Included Games</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Space Invaders Anniversary</td>
+                <td>2003</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders Classic</li>
+                        <li>Space Invaders DX</li>
+                        <li>Space Invaders Part II</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Taito Legends</td>
+                <td>2005</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders</li>
+                        <li>Space Invaders Part II</li>
+                        <li>Bubble Bobble</li>
+                        <li>Elevator Action</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Space Invaders Invincible Collection</td>
+                <td>Nintendo Switch: 2020</td>
+                <td>
+                    <ul>
+                        <li>Space Invaders Extreme</li>
+                        <li>Arkanoid vs. Space Invaders</li>
+                        <li>Majestic Twelve</li>
+                        <li>Super Space Invaders '91</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Modern Appearances</h2>
+    <p>Space Invaders is frequently referenced in pop culture. The alien sprite is considered a universal symbol of retro gaming. It appears in movies, music videos, street art, and even fashion. The French artist <b>Invader</b> uses mosaic tiles to place Space Invaders sprites across major cities.</p>
+    <p>Today, the game continues to inspire developers, serving as an iconic example of how simple mechanics can create deep, engaging gameplay.</p>
+</body>
+</html>
