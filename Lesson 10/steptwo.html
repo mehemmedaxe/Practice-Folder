@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Information</title>
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="station">Salutation</label>
+                <br>
+                <select id="station">
+                    <option value="">--None--</option>
+                    <option value="">select1</option>
+                    <option value="">select2</option>
+                </select>
+                <br>
+                <br>
+                <label for="fname">First Name:</label>
+                <input required id="fname" type="text">
+                <br>
+                <br>
+                <label for="lname">Last Name:</label>
+                <input required id="lname" type="text">
+                <br>
+                <br>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="choice">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="choice">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input required type="email" id="email">
+                <br>
+                <br>
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date">
+                <br>
+                <br>
+                <label for="address">Address:</label>
+                <br>
+                <textarea id="address"></textarea>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
