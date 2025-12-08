@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application</title>
 </head>
-
 <body>
+    <style>
+        form{
+            margin: 0 auto;
+            width: fit-content;
+        }
+        input:not([type="radio"], [type="textarea"], [type="checkbox"]) {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
     <form>
         <table border="1">
             <thead></thead>
@@ -55,7 +64,7 @@
                 </tr>
                 <tr>
                     <th>Address</th>
-                    <td><textarea rows="10" required></textarea></td>
+                    <td><textarea rows="8" cols="38" required></textarea></td>
                 </tr>
                 <tr>
                     <th>State</th>
@@ -97,7 +106,10 @@
                 </tr>
             </tbody>
         </table>
-        <button type="submit">Register</button>
+        <center>
+            <button type="submit">Register</button>
+        </center>
+        
     </form>
 </body>
 
