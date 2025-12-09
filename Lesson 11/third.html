@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interstellar Wildlife Catalog</title>
+</head>
+
+<body>
+    <style>
+        body{
+            display: block;
+        }
+        .container {
+            max-width:1200px; 
+            width:60%; 
+            margin:auto;
+        }
+        
+        .grid {
+            display: flex;
+            gap: 20px;
+        }
+
+        .grid-img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    </style>
+    <div class="container">
+        <header>
+            <h1>Interstellar Wildlife Catalog</h1>
+            <p>Documenting life forms discovered across distant galaxies.</p>
+            <nav>
+                <a href="#species">Species</a> |
+                <a href="#bioscanner">Bio Scanner</a> |
+                <a href="#habitats">Habitats</a> |
+                <a href="#genetics">Genetics</a> |
+                <a href="#contact">Contact</a>
+                <img width="100%" src="https://picsum.photos/seed/galaxy-header/1200/450" alt="404 Not Found">
+            </nav>
+        </header>
+        <hr>
+        <section id="species">
+            <h2>Alien Species</h2>
+            <div class="grid">
+                <article>
+                    <h3>Arcturian Ice Serpent</h3>
+                    <img width="250" src="https://picsum.photos/seed/serpent/400/300" alt="404 Not Found">
+                    <p>Lives beneath frozen oceans and glows in total darkness.</p>
+                </article>
+                <article>
+                    <h3>Voltar Beetle Titan</h3>
+                    <img width="250px" src="https://picsum.photos/seed/beetle/400/300" alt="404 Not Found">
+                    <p>A metal-shelled insect capable of transmitting radio waves.</p>
+                </article>
+                <article>
+                    <h3>Nebula Cloud Ray</h3>
+                    <img width="250px" src="https://picsum.photos/seed/ray/400/300" alt="404 Not Found">
+                    <p>A floating organism that feeds on starlight particles.</p>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="bioscanner">
+            <h2>Bio Scanner Index</h2>
+            <table cellpadding="10" border="1">
+                <thead>
+                    <tr>
+                        <th>Species</th>
+                        <th>Avg Size</th>
+                        <th>Threat Level</th>
+                        <th>Home Galaxy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ice Serpent</td>
+                        <td>14 meters</td>
+                        <td>Medium</td>
+                        <td>Arcturus</td>
+                    </tr>
+                    <tr>
+                        <td>Beetle Titan</td>
+                        <td>2 meters</td>
+                        <td>Low</td>
+                        <td>Voltar System</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Ray</td>
+                        <td>8 meters</td>
+                        <td>Low</td>
+                        <td>Tri-Nebula</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section id="habitats">
+            <h2>Planet Habitats</h2>
+            <div class="grid-img">
+                <article>
+                    <h3>Frostveil-9</h3>
+                    <img width="300" src="https://picsum.photos/seed/frost/500/350" alt="404 Not Found">
+                    <p>A frozen moon with subterranean oceans and glowing caves.</p>
+                </article>
+                <article>
+                    <h3>Zephyr Prime</h3>
+                    <img width="300" src="https://picsum.photos/seed/zephyr/500/350" alt="404 Not Found">
+                    <p>Known for floating islands and ultra-light atmosphere gas.</p>
+                </article>
+                <article>
+                    <h3>Aurora-51</h3>
+                    <img width="300" src="https://picsum.photos/seed/aurora/500/350" alt="404 Not Found">
+                    <p>Rich with magnetic storms and luminescent plant life.</p>
+                </article>
+                <article>
+                    <h3>Crimson Dune World</h3>
+                    <img width="300px" src="https://picsum.photos/seed/crimson/500/350" alt="404 Not Found">
+                    <p>Harsh desert planet inhabited by radiation-adapted species.</p>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="genetics">
+            <h2>Genetic Breakdown</h2>
+            <details>
+                <summary>Ice Serpent DNA</summary>
+                <p>Contains cryo-cell structures capable of regenerating in sub-zero environments.</p>
+            </details>
+            <details>
+                <summary>Beetle Titan DNA</summary> 
+                <p>Metallic exoskeleton grown through bio-iron absorption.</p>
+            </details>
+            <details>
+                <summary>Cloud Ray DNA</summary>
+                <p>Plasma-light membranes that store stellar radiation.</p>
+            </details>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Send Interstellar Message</h2>
+            <form>
+                <fieldset>
+                    <legend>Communication Form</legend>
+                    <label>Explorer Name:</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label>Galaxy of Origin:</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label>Species Report:</label>
+                    <br>
+                    <textarea rows="5" cols="40"></textarea>
+                    <br>
+                    <br>
+                    <label>Urgency Level:</label>
+                    <select>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="submit">Transmit Message</button>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <footer>
+            <p>© 2350 Interstellar Wildlife Division</p>  
+            <a href="#" id="home">Back to Top</a>
+        </footer>
+    </div>
+</body>
+
+</html>
