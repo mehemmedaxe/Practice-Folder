@@ -87,7 +87,7 @@ li:nth-child(15) {
     background-color: #008080;
 }
 
-li:nth-child(16) {
+li:last-child {
     background-color: #00FFFF;
     color: black;
 }
