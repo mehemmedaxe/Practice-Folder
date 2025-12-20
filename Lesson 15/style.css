@@ -8,16 +8,17 @@ body{
     background:#f6f6f6;
 }
 .container{
-    max-width:1200px;
+    max-width:1120px;
     margin:40px auto;
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap:30px;
 }
 .card{
     background:#fff;
     padding:40px 30px;
     text-align:center;
+    width: 30%;
 }
 .icon{
     font-size:40px;
@@ -27,7 +28,7 @@ body{
 h3{
     margin:0 0 15px;
     font-size:16px;
-    letter-spacing:1px;
+
 }
 p{
     margin:0;
