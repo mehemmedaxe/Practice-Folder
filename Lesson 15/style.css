@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f6f6f6;
+}
+.container{
+    max-width:1200px;
+    margin:40px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.card{
+    background:#fff;
+    padding:40px 30px;
+    text-align:center;
+}
+.icon{
+    font-size:40px;
+    color:#f5a623;
+    margin-bottom:20px;
+}
+h3{
+    margin:0 0 15px;
+    font-size:16px;
+    letter-spacing:1px;
+}
+p{
+    margin:0;
+    color:#777;
+    font-size:14px;
+    line-height:1.6;
+}
