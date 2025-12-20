@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Istok Web', sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1120px;
+    width: 70%;
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.first-heading {
+    font-size: 1rem;
+    color: #2c7ae7;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 7px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3b3b44;
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+article {
+    border: 1px solid rgb(208, 208, 208);
+    padding: 25px;   
+    border-radius: 10px;
+    width: 40%;
+}
+
+.flex-items {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caption {
+    color: #63636b;
+    font-size: 12px;
+}
+
+.info {
+    margin-top: 12px;
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+.blue-btn {
+    width: 250px;
+    background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid ;
+        cursor: pointer;
+}
+
+.flex-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
