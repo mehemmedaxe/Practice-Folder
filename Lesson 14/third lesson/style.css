@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato' , sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 1120px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 72%;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.comp-img {
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+}
+
+.specs {
+    margin-top: 20px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.price  {
+    margin-top: 10px;
+    color: #b12704;
+}
+
+.flex-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#samecss {
+    color: #853ae0;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#samecss:hover {
+    text-decoration: underline;
+}
+
+#back-link {
+    display: block;
+    font-style: italic;
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
