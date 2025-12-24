@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: #000;
+    color: #FFF;
+}
+
 body {
     font-family: 'Mulish', sans-serif;
     line-height: 1.7;
@@ -12,7 +17,7 @@ body {
 section {
     max-width: 1320px;
     width: 100%;
-    margin: 30px auto;
+    margin: 17px auto;
 }
 
 header {
@@ -40,6 +45,8 @@ main {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+    width: 100%;
 }
 
 article {
