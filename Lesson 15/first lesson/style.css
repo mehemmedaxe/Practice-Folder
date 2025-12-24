@@ -62,7 +62,7 @@ header {
     transition:  all 0.7s ease;
 }
 
-.card-text:hover{
+.card:hover{
     color: #c92f2f;
 }
 
