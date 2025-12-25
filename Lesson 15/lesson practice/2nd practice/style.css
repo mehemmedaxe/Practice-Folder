@@ -28,6 +28,7 @@ section {
     max-width: 1140px;
     width: 100%;
     margin: 30px auto;
+    padding: 20px;
 }
 
 .line {
@@ -62,6 +63,7 @@ main {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    
 }
 
 article {
