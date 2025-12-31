@@ -20,13 +20,13 @@ img:hover {
 }
 
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
 }
 
 section {
     max-width: 1140px;
-    width: 100%;
+    width: 70%;
     margin: 30px auto;
     padding: 20px;
 }
@@ -61,21 +61,34 @@ h2 {
 
 main {
     display: flex;
+    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    
+
 }
 
 article {
+    width: calc(100%/3 - 30px);
     background-color: #FFF;
+}
 
+@media screen and (max-width:990px) {
+    article {
+        width: calc(100%/2 - 30px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    article {
+        width: 100%;
+    }
 }
 
 .caption {
     padding: 20px 20px 20px 50px;
 }
 
-h3 a{
+h3 a {
     color: #161e46;
     font-weight: 700;
     font-size: 25px;
