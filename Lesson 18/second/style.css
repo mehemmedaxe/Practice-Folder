@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Istok Web", sans-serif;
+    color: #3b3b44;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 56px;
+    margin-top: 56px;
+
+    .heading-lil-text {
+        color: #2c7ae7;
+        text-transform: uppercase;
+    }
+
+    .heading-text {
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+
+.services-box {
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100%;
+    margin: 0px 13px;
+    margin-bottom: 20px;
+    padding: 25px 20px;
+    border: 1px solid rgb(182, 182, 190);
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+
+    .icon {
+        color: white;
+        background: linear-gradient(to right, #2876e2 0, #3f8efc 100%);
+        padding: 28px 28px;
+        font-size: 42px;
+        border-radius: 50%;
+        transition:  .3s ease;
+    }
+
+    h2 {
+        margin-bottom: 19px;
+        margin-top: 19px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .bg-icon {
+        position: absolute;
+        transition:  .3s ease;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        span {
+            font-size: 470px;
+        }
+    }
+
+
+    &:hover {
+        color: white;
+        border: #9d9da3 solid 1px;
+        background-color: rgba(72, 72, 235, 0.897);
+        transition:  0.3s ease;
+
+        .icon {
+            color: #2c7ae7;
+            background: white;
+            transition: .3s ease-in-out;
+        }
+
+        .bg-icon {
+            background-color: #2c7ae7de;
+            opacity: 1;
+            transition: .3s ease;
+        }
+
+    }
+}
+
+.btn {
+    margin: 38px auto;
+    width: 250px;
+    background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+    color: white;
+    padding: 13px 22px;
+    border-radius: 6px;
+    outline: 0;
+    border: 1px #917cddec solid;
+
+    .btn-icon {
+        height: 21px;
+        width: 20px;
+        font-size: 20px;
+        vertical-align: middle;
+        transition: 0.3s ease;
+    }
+}
