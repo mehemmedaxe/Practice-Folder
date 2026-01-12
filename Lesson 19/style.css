@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    max-width: 1320px;
+    width: 85%;
+    margin-inline: auto;
+    padding: 60px 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    line-height: 1.01;
+    font-size: 40px;
+    margin-bottom: 46px;
+}
+
+.course-text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 560px;
+}
+
+.course-text-special-css {
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.img-box img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+
+/* bottom row */
+
+.main-bottom {
+    display: grid;
+    grid-template-columns: auto repeat(4, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.img-stat-box {
+    margin-right: 70px;
+}
+
+.img-stat-box img {
+    width: 100%;
+    max-width: 200px;
+}
+
+h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.stats-text {
+    max-width: 150px;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/* RESPONSIVE */
+

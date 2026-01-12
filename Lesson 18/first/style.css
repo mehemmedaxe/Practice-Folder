@@ -80,6 +80,7 @@ body {
 .section-nd2 {
     margin: 50px auto;
     width: 70%;
+    max-width: 960px;
     padding: 3rem 0;
 }
 
