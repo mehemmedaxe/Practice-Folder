@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animation {
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: all ease-in .7s;
+    background-color: #96ff0d;
+    background-position: center;
+}
+
+.animation:hover {
+    background-color: #3b3a3a;
+
+
+    .img1 {
+        transform: translateY(-300px);
+        scale: 0.5;
+
+    }
+
+    .img2 {
+        transform: translateY(-280px);
+        scale: 1.1;
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 1;
+    transition: all ease-in .7s;
+}
+
+.img-1 {
+    transform: translateY(0px);
+}
+
+.img-2 {
+    transform: translateY(0px);
+}
+
+.circle-red {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #96ff0d;
+    animation-name: circle-green;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top: 10px;
+    left: 10px;
+}
+
+.circle-green {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #ff0707;
+    animation-name: circle-red;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    left: 10px;
+    top: 10px;
+}
+
+@keyframes circle-green {
+    0% {
+    }
+
+    25% {
+        transform: translateX(160px);
+        border-radius: 40%;
+    }
+
+    50% {
+        transform: translate(160px, 260px);
+        border-radius: 50%;
+    }
+
+    75% {
+        transform: translate(0px,260px);
+        border-radius: 50%;
+    }
+
+    100% {}
+}
+
+@keyframes circle-red {
+    0% {
+    }
+
+    25% {
+        transform: translateY(260px);
+    }
+
+    50% {
+        transform: translate(160px, 260px);
+    }
+
+    75% {
+        transform: translate(160px,-10px);
+    }
+
+    100% {}
+}

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ibox {
+    height: 150px;
+    width: 260px;
+    border: 1px solid #ffffff;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    transition: all 4s ease-out;
+}
+
+.ibox:hover {
+    border: none;
+}
+
+body {
+    background-color: #1a9ac9;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 780px;
+    height: 450px;
+    border: 1px solid #fff;
+}
+
+.img-box-4,
+.img-box-9 {
+    animation-name: left;
+}
+
+.img-box-3,
+.img-box-8 {
+    animation-name: up;
+}
+
+.img-box-2,
+.img-box-7 {
+    animation-name: down;
+}
+
+.img-box-1 {
+    animation-name: right-down;
+}
+
+.img-box-5 {
+    animation-name: down-right;
+}
+
+.img-box-6 {
+    animation-name: step2-up;
+}
+
+@keyframes left {
+    0% {}
+
+    25% {
+        transform: translate(-100px);
+    }
+
+    50% {
+        transform: translate(-150px);
+    }
+
+    75% {
+        transform: translate(-200px);
+    }
+
+    100% {
+        transform: translate(-260px);
+    }
+}
+
+@keyframes up {
+    0% {}
+
+    25% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    75% {
+        transform: translateY(-90px);
+    }
+
+    100% {
+        transform: translateY(-150px);
+    }
+}
+
+@keyframes down {
+    0% {}
+
+    25% {
+        transform: translateY(30px);
+    }
+
+    50% {
+        transform: translateY(60px);
+    }
+
+    75% {
+        transform: translateY(90px);
+    }
+
+    100% {
+        transform: translateY(150px);
+    }
+}
+
+@keyframes right-down {
+    0% {}
+
+    25%{
+        transform: translate(70px);
+    }
+
+    50%{
+        transform: translate(140px);
+    }
+
+    75%{
+        transform: translate(260px);
+    }
+
+    100%{
+        transform: translate(260px,150px);
+    }
+}
+
+@keyframes down-right {
+    0% {}
+
+    25%{
+        transform: translate(0,40px);
+    }
+    50%{
+        transform: translate(0,90px);
+    }
+    75%{
+        transform: translate(0,150px);
+    }
+    100%{
+        transform: translate(260px,150px);
+    }
+}
+
+@keyframes step2-up {
+    25% {
+        transform: translateY(-60px);
+    }
+    50%{
+        transform: translateY(-120px);
+    }
+    75% {
+        transform: translateY(-240px);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
+}
